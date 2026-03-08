@@ -115,8 +115,8 @@ REST_FRAMEWORK = {
 }
 
 # ── CORS ────────────────────────────────────────────────────────────────────
-CORS_ALLOW_ALL_ORIGINS = FALSE
+CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
-     "https://tech-insight-frontend.onrender.com3",
+     "https://tech-insight-frontend.onrender.com",
 ]
 CORS_ALLOW_CREDENTIALS = True
