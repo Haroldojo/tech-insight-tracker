@@ -115,7 +115,7 @@ REST_FRAMEWORK = {
 }
 
 # ── CORS ────────────────────────────────────────────────────────────────────
-CORS_ALLOW_ALL_ORIGINS = DEBUG
+CORS_ALLOW_ALL_ORIGINS = FALSE
 CORS_ALLOWED_ORIGINS = [
     o.strip()
     for o in os.environ.get(
@@ -123,3 +123,4 @@ CORS_ALLOWED_ORIGINS = [
     ).split(",")
     if o.strip()
 ]
+CORS_ALLOW_CREDENTIALS = True
